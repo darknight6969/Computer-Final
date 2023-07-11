@@ -1,0 +1,121 @@
+<html>
+<head>
+<h1 align="center">AUDIO</h1>
+</head>
+<body>
+<p>
+<audio controls>
+<source src="IFG.mp3" type="audio/mpeg">
+</audio>
+</p>
+<p align="center">
+<canvas id="myCanvas">
+<script>
+let canvas = document.getElementById("myCanvas");
+let ctx = canvas.getContext("2d");
+ctx.fillStyle = ("pink");
+ctx.fillRect(10, 10, 500, 300);
+</script>
+</canvas>
+</p>
+<table bgcolor="gray" align="center">
+<caption bgcolor="pink">ME 3D TOP STUDENTS:</caption>
+<tr bgcolor="pink" align="center">
+<td>ALO</td>
+<td>REYES</td>
+<td>CALINAO</td>
+<td>DUBOUZET</td>
+</tr>
+<tr bgcolor="purple" align="center">
+<td>7</td>
+<td>7.2</td>
+<td>7.4</td>
+<td>7.6</td>
+</tr>
+<tr bgcolor="purple" align="center">
+<td>7</td>
+<td>7.2</td>
+<td>7.4</td>
+<td>7.6</td>
+</tr>
+<tr bgcolor="purple" align="center">
+<td>7</td>
+<td>7.2</td>
+<td>7.4</td>
+<td>7.6</td>
+</tr>
+<br>
+
+<table bgcolor="gray" align="center">
+<th>ME 3D TOP STUDENTS:</th>
+<tr bgcolor="pink" align="center">
+<td>ALO</td>
+<td>REYES</td>
+<td>CALINAO</td>
+<td>DUBOUZET</td>
+</tr>
+<tr bgcolor="purple" align="center">
+<td>7</td>
+<td>7.2</td>
+<td>7.4</td>
+<td>7.6</td>
+</tr>
+<tr bgcolor="purple" align="center">
+<td>7</td>
+<td>7.2</td>
+<td>7.4</td>
+<td>7.6</td>
+</tr>
+<tr bgcolor="purple" align="center">
+<td>7</td>
+<td>7.2</td>
+<td>7.4</td>
+<td>7.6</td>
+</tr>
+<br>
+<br>
+
+<p>
+<dl>
+<dt>Coffee</dt>
+<dd>Black hot drink</dd>
+<dt>Milk</dt>
+<dd>White cold drink</dd>
+</dl>
+</p>
+<p>
+<details>
+<summary>The Journey of LEI<wbr>of<wbr>"BATA"</summary>
+<p> Sumakay ako sa jeepney,ikaw ang nakatabi.</p>
+<p>Di makapaniwala,at nagsisikan ng dahil tumigil ang jeepney sa tapat ng skwela.</p>
+<p> At yun na nga, salamat at nakarating din sa BATA.</p>
+</details>
+</p>
+<p>
+<form action="/action_page.php">
+<fieldset>
+<legend>Personalia:</legend>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname"><br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname"><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday"><br><br>
+<label for="submit">SUBMIT:</label>
+</fieldset>
+</form>
+</p>
+<p align="Center">
+<video controls autoplay muted width="1080" height="720">
+<source src="Slumberland.mp4" type="video/mp4">
+</video>
+</p>
+
+
+<p>
+<dialog open>ME3D</dialog>
+</p>
+</body>
+</html>
